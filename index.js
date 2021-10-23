@@ -22,5 +22,5 @@ else if (randomNumber2>randomNumber1){
     document.querySelector("h1").textContent=player2+"  Wins! 🚩";
 }
 else{
-    document.querySelector("h1").textContent="🚩 DRAW 🚩";
+    document.querySelector("h1").textContent="🚩 ITS A DRAW 🚩";
 }
