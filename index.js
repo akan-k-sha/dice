@@ -15,10 +15,10 @@ document.querySelector(".img2").setAttribute("src" ,"images/dice"+randomNumber2+
 
 document.querySelector(".p1").innerHTML=player1;
 document.querySelector(".p2").innerHTML=player2;
-if (randomNumber1>randomNumber2){
+if (randomNumber1%2 == 0 && randomNumber2 %2!=0){
     document.querySelector("h1").textContent=("🚩 "+ player1+"     "+"Wins!");
 }
-else if (randomNumber2>randomNumber1){
+else if (randomNumber2%2 ==0 && randomNumber1 %2!=0){
     document.querySelector("h1").textContent=player2+"  Wins! 🚩";
 }
 else{
